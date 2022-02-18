@@ -48,7 +48,7 @@ public class RockPaperScissors {
                 computersChoice = choice.nextInt(2) + 1;
                 if (usersChoice == computersChoice) {
                     System.out.println("It's a tie!");
-                    ties ++;
+                    ties++;
                 } else if (computersChoice == nextOption(usersChoice)){  //the next choice is always winning
                     System.out.println("Computer won!");
                     computersScore++;
